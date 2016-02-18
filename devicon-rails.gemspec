@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["vincent.corniere@gmail.com"]
 
   spec.summary       = "Devicon for rails"
-  spec.description   = "Devicon is a font with language and framework."
+  spec.description   = "Devicon is a font."
   spec.homepage      = "https://github.com/dezande/devicon-rails"
   spec.license       = "MIT"
 

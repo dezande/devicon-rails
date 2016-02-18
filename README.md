@@ -1,7 +1,5 @@
 # Devicon-rails
 
-Your attention please, this gem is not valid for this moment.
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -14,9 +12,17 @@ And then execute:
 
     $ bundle
 
+In your application.css add this line:
+```css
+/*
+ *= require devicon
+ *= require devicon-colors
+ */
+```
+
 ## Usage
 
-TODO: Write usage instructions here
+Go to [devicon.fr](http://devicon.fr/) for more information
 
 ## Contributing
 

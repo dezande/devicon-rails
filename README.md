@@ -1,5 +1,5 @@
 # Devicon-rails
-
+[![Gem Version](https://badge.fury.io/rb/devicon-rails.svg)](https://badge.fury.io/rb/devicon-rails)
 ## Installation
 
 Add this line to your application's Gemfile:

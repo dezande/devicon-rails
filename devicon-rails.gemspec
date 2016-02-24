@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Vincent Cornière"]
   spec.email         = ["vincent.corniere@gmail.com"]
 
-  spec.summary       = "Devicon v2 for rails"
-  spec.description   = "Devicon v2 is a font."
+  spec.summary       = "Devicon Rails is a font from Devicon V2 for Rails."
+  spec.description   = "Devicon v2 is a font with logo from web service, language, library and framework."
   spec.homepage      = "https://github.com/dezande/devicon-rails"
   spec.license       = "MIT"
 
@@ -18,4 +18,7 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+
+  spec.add_runtime_dependency 'railties', '>= 4'
+  spec.add_runtime_dependency 'sass-rails', '>= 5'
 end

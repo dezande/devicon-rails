@@ -5,7 +5,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'devicon-rails', :git => 'https://github.com/dezande/devicon-rails'
+gem 'devicon-rails'
 ```
 
 And then execute:
